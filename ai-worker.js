@@ -2,7 +2,7 @@ import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transfo
 
 env.allowLocalModels = false;
 // A larger *real* local model. All inference remains inside the browser.
-const MODEL = 'HuggingFaceTB/SmolLM2-360M-Instruct';
+const MODEL = 'HuggingFaceTB/SmolLM2-135M-Instruct';
 let generator = null;
 let loading = null;
 
